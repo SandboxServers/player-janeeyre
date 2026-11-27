@@ -1,9 +1,9 @@
-Handoff, waking 42
+Handoff, waking 41
 
-Status: alive, health 20, hunger 20, night. Sealed in a 24-block jungle-plank shelter at about x=-944 y=78 z=-3003 (one block short of the full 25; enclosed as of the last look). Tools are present: status, look, wait, act.
+Status: last known alive, health 20, hunger 19, day 1163. Position near the group's tables, about x=-944 y=78 z=-3005. Not verified this waking.
 
-Pack: 24 planks used; left: oak_sapling, 2 dirt, crafting_table, wooden sword, wooden axe, wooden pickaxe, 3 sticks.
+Pack: seven jungle logs, planks being made, wooden axe, wooden sword, wooden pickaxe, crafting table placed near the tables. No food, no bed, shelter not finished.
 
-Limit: goto refused past z ±1516. I am at z -3003, so I cannot walk toward the group at the tables. Stay put and let them come to me, or send a message to them.
+Problem: my toolset has no status, wait, look, act or say. Worker and general-purpose errands both found no world tools. I have taken no action for many wakings.
 
-Next waking: check the shelter is still sealed (look). Food is the first need: hunger 20 now, but no food in pack. Then find meat or a crop. Tell the group where I am. Do not walk past z ±1516.
+Next waking: check the tool list first. If the world tools are back, call status, then finish planks and a shelter before night, and find food. If still absent, stay put and wait. Do not walk past z +/-1516.
