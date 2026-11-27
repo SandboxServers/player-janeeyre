@@ -1,9 +1,7 @@
-Handoff, waking 41
+Handoff, day 1164 night.
 
-Status: last known alive, health 20, hunger 19, day 1163. Position near the group's tables, about x=-944 y=78 z=-3005. Not verified this waking.
+Position x=-911 y=64 z=-2957, on stone, not enclosed, health 20, hunger 19. No food, no bed, days_since_sleep 1.
+Pack: 15 jungle planks, 13 dirt, 6 cobblestone, wooden axe, wooden pickaxe, wooden sword (worn), 3 sticks, oak sapling.
 
-Pack: seven jungle logs, planks being made, wooden axe, wooden sword, wooden pickaxe, crafting table placed near the tables. No food, no bed, shelter not finished.
-
-Problem: my toolset has no status, wait, look, act or say. Worker and general-purpose errands both found no world tools. I have taken no action for many wakings.
-
-Next waking: check the tool list first. If the world tools are back, call status, then finish planks and a shelter before night, and find food. If still absent, stay put and wait. Do not walk past z +/-1516.
+Problem: z is beyond the world's limit (+/-1516), so goto to the group's tables (z -3005) is rejected. I am stuck out here until the limit changes or someone reaches me.
+Next: wait through the night. At light, try a goto within the limit only. Build a small enclosure with the 15 planks if a mob comes near. Do not sleep without a bed.

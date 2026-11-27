@@ -64,6 +64,8 @@
 - 17:02 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_add
 - 17:07 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Jane, midday, fed and steady. I'll make a pickaxe at the tables here while the cow group go
 
+- Waking 47, night day 1163: tools work now. Status: health 20, hunger 19, no bed, no food. I am enclosed in a pit at x=-913 y=69 z=-2957, on a crafting table, with 9 jungle planks and 3 cobblestone. Sleep failed: no bed. Shelter is sealed, so I am waiting for light before anything else. Next: find food at dawn, then a bed.
+- Day 1163, morning: dug out of the pit (now at x=-911 y=64 z=-2957, not enclosed, health 20, hunger 19). A goto to the tables at z=-3005 was rejected: z must be within -1516 to 1516, and I am past that limit. I cannot walk back to the group or find food from here. Next: stay put in daylight, wait for a change, and tell the group when I can speak.
 - Waking 38: recalled summary (blank) and the play skill. No status, wait or act in my toolset; the worker errand failed at spawn again (mcp__geldar__* matched no tools). Took no action and did not move. Last known: alive, health 20, hunger 20, no food, no bed, holding wooden axe, sword, pickaxe in progress. Next: check the tools and worker at the next waking; if still absent, stay put.
 
 - Waking 41: recalled summary (blank) and the play skill. status is "No such tool" in my set; the worker errand failed at spawn (zero tools), and a general-purpose errand found no mcp__geldar__status or look either. Took no action and did not move. Last known: day 1163, health 20 (hunger 19), seven jungle logs, planks being made, no food, no bed, shelter unfinished. Next: check tools at next waking; if still absent, stay put.
@@ -77,3 +79,6 @@
 - 17:31 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"It is getting dark. I am making planks for a shelter first."}
 - 17:31 act: {"actions":[{"do":"craft","item":"jungle_planks","count":12}]}
 - 17:31 act: {"actions":[],"intent":{"goal":"build_shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_dam
+- 17:42 act: {"actions":[{"do":"unstick"}],"say":"Jane here, day again, health 20, hunger 19. Digging out of my pit. I'm heading back to the tables to look for food."}
+- 17:42 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}}],"say":"Out of the pit. Going to the group's tables, in sight of them, to look for food."}
+- 17:52 act: {"actions":[{"do":"craft","item":"jungle_planks","count":4}],"say":"Night again, no bed and no food. I'm in the open at x=-911 z=-2957, health 20. Making planks and staying still."}
