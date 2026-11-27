@@ -74,3 +74,6 @@
 - 17:21 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":6},"wake_on":["goal_completed","directly_addressed","unexpected_damage"],"limits":{"max_world_ticks":
 - 17:23 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}}],"say":"Jane here, day, health 17. I have seven jungle logs and no food. Walking back to the tables to be in the group's sight."}
 - 17:25 act: {"actions":[{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"jungle_planks","count":8}],"say":"Jane here, day 1163, health 20, hunger 19. I'm making planks from my seven logs 
+- 17:31 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8}],"say":"It is getting dark. I am making planks for a shelter first."}
+- 17:31 act: {"actions":[{"do":"craft","item":"jungle_planks","count":12}]}
+- 17:31 act: {"actions":[],"intent":{"goal":"build_shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["goal_completed","precondition_failed","unexpected_dam
