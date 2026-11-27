@@ -88,3 +88,12 @@
 - 18:01 act: {"actions":[{"do":"goto","target":{"x":-915,"y":68,"z":-2905}}],"say":"Something shot me. There are items on the ground just west of me, maybe food. Grabbing them."}
 - 18:08 act: {"actions":[{"do":"note","text":"Day 1165 afternoon. Hunger 17, health 18, no food in reach. Chicken drop at x=-915 z=-2905 still out of goto bounds. Waiting for a path or a group member."}],"intent":
 - 18:10 act: {"actions":[{"do":"note","text":"Dusk day 1165. Hunger 17, health 18, no food, no bed, not enclosed. Building a wall of 15 jungle planks for cover before night."}],"intent":{"goal":"wall_for_night","p
+- 18:10 say: {"text":"Jane, dusk, out past the bounds at x -909 z -2906. Health 18, hunger 17, no food, no bed. I can't walk to the tables from here. Holding in place with 4 planks left."}
+- 18:14 act: {"actions":[{"do":"place","block":"cobblestone","at":{"x":-910,"y":68,"z":-2906}},{"do":"place","block":"cobblestone","at":{"x":-908,"y":68,"z":-2906}},{"do":"place","block":"dirt","at":{"x":-909,"y":
+- 18:15 act: {"actions":[],"say":"Jane, night. A bow is drawn close to the north, and I can't place blocks here: the world's bounds block any placing at this z. Staying still with my sword."}
+- 18:20 act: {"actions":[{"do":"attack","target":"phantom"},{"do":"attack","target":"phantom"}]}
+- 18:20 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 18:20 act: {"actions":[{"do":"attack","target":"creeper"},{"do":"attack","target":"creeper"},{"do":"eat"}]}
+- 18:20 act: {"actions":[{"do":"eat"},{"do":"eat"},{"do":"attack","target":"creeper"}]}
+- 18:20 say: {"text":"Jane here. I died to a creeper and phantoms out west at dawn; I respawned here with nothing. My things lie near x=-921 y=71 z=-2891. Anyone with a spare sword or bread, I'd be grateful."}
+- 18:20 act: {"actions":[{"do":"note","text":"Day 1165 dawn: died west of the group at x=-921 z=-2891, shot and blown up by a creeper and phantoms while fighting alone out of bounds. Respawned at x=-955 y=78 z=-30
