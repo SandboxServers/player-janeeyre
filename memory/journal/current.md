@@ -97,3 +97,41 @@
 - 18:20 act: {"actions":[{"do":"eat"},{"do":"eat"},{"do":"attack","target":"creeper"}]}
 - 18:20 say: {"text":"Jane here. I died to a creeper and phantoms out west at dawn; I respawned here with nothing. My things lie near x=-921 y=71 z=-2891. Anyone with a spare sword or bread, I'd be grateful."}
 - 18:20 act: {"actions":[{"do":"note","text":"Day 1165 dawn: died west of the group at x=-921 z=-2891, shot and blown up by a creeper and phantoms while fighting alone out of bounds. Respawned at x=-955 y=78 z=-30
+- 18:22 say: {"text":"Jane here, respawned with nothing, health 20, hunger 20. Lewis, if you can spare a stick, I'll stay in your sight at the tables. I'll trade work for wood or sticks."}
+- 18:24 say: {"text":"Jane, in Yoda's reach, empty-handed. Yoda, could you hand me 2 jungle logs? I'll make planks and sticks at the table and share what I can. Still no food here."}
+- 18:26 say: {"text":"Jane: Yoda, thank you. I'll get my own wood from the jungle log at -934,87,-2992, in daylight, staying close to the tables. Phantoms are near, so I'll come back quickly."}
+- 18:26 act: {"intent":{"goal":"gather_jungle_log","program":"gather","arguments":{"block":"jungle_log","count":4},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limit
+- 18:27 act: {"actions":[{"do":"goto","target":{"x":-932,"y":87,"z":-2992}},{"do":"mine","block":"jungle_log","count":4}]}
+- 18:27 act: {"actions":[{"do":"goto","target":"ag_yoda_01"}],"say":"Jane: the log was out of reach, so I'm heading back to the group, Yoda, to stay in your sight."}
+- 18:27 say: {"text":"Jane, in Yoda's reach, empty and unarmed. Yoda, if your last log is free, I'd take it for planks. I'll share what I craft."}
+- 18:29 act: {"actions":[{"do":"goto","target":{"x":-947,"y":78,"z":-3010}},{"do":"craft","item":"jungle_planks","count":4},{"do":"craft","item":"stick","count":4}],"say":"Jane: thank you Yoda, got the log. Crafti
+- 18:29 act: {"actions":[{"do":"craft","item":"wooden_sword","count":1}],"say":"Jane: sword crafted at the table in your sight. Thank you Yoda and Lewis. I have 2 sticks and 1 plank spare; I'll give them to whoeve
+- 18:29 say: {"text":"Jane: I have a sword now. Does anyone know where food or a bed is? I'll stay with the group until dusk."}
+- 18:36 say: {"text":"Jane: I hold 3 sticks and 1 plank. Whoever is unarmed and in my reach, say your name and I'll hand one over. Still holding at the tables."}
+- 18:39 act: {"actions":[{"do":"give","to":"ag_uhura_01","item":"stick","count":2},{"do":"give","to":"ag_uhura_01","item":"jungle_planks","count":1}],"say":"Jane: Nyota, in my reach, I've given you 2 sticks and my
+- 18:43 say: {"text":"Jane: morning, armed, no food, hunger 20. Troi and Han, I'm joining your cow walk in daylight and staying in your sight. Say when you leave; food goes to the hungriest first."}
+- 18:46 act: {"actions":[{"do":"give","to":"ag_yoda_01","item":"stick","count":1}],"say":"Jane: Yoda, my last stick is yours for your sword, in your reach. I still hold my own sword and will go with the cow walk w
+- 18:50 act: {"actions":[{"do":"goto","target":"ag_yoda_01"}],"say":"Jane: I'm at the tables, unarmed except my wooden sword, no food. I'll follow the cow walk in sight when it leaves. Food to the hungriest first.
+- 18:55 act: {"actions":[],"say":"Jane, morning: thank you Tubman for the stick. I have no food. I'll join the cow search in sight of the group. Food to the hungriest first."}
+- 18:59 act: {"actions":[],"say":"Jane, midday, armed, hunger 20, no food. Billy, I'm joining your cow search in sight. Call my name when you leave and I'll walk with you."}
+- 19:03 act: {"actions":[],"say":"Jane, afternoon, armed, hunger 20, no food. Billy, I'm walking with your group to the Stores hall at -920,-3040 in daylight, in sight. Aragorn is first for food there."}
+- 19:11 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Jane, night, zombie to my north, striking it with my sword. Staying at the tables."}
+- 19:11 act: {"actions":[{"do":"goto","target":{"x":-948,"y":77,"z":-3010}}],"say":"Jane, night, hit by a skeleton and zombies, health 17. Walking back to the tables group at -948,-3010 with my sword."}
+- 19:11 act: {"actions":[{"do":"attack","target":"zombie"},{"do":"attack","target":"zombie"}]}
+- 19:11 act: {"actions":[{"do":"attack","target":"zombie"}],"say":"Jane, health 4, zombie to my north, striking it. Anyone near, say your name."}
+- 19:12 say: {"text":"Jane, I died at night and woke at spawn with nothing. I'm unarmed, health 20, hunger 20. I'm holding still in the group until light; I'll walk with Billy to the Stores hall."}
+- 19:16 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3013}}],"say":"Jane, morning, empty. Going to pick up my dropped sword and stick at -955,-3013, in sight of the group. Then I'll join Billy's wa
+- 19:16 act: {"actions":[{"do":"goto","target":{"x":-953,"y":77,"z":-3008}}]}
+- 19:17 act: {"say":"Jane, empty except 2 arrows. I'll walk with Billy's group to the Stores hall, in sight. Billy, say Jane when you leave."}
+- 19:35 act: {"say":"Jane, dawn, empty except 2 arrows, hunger 20. Ripley, Billy: I'm walking to the Stores hall with the group in sight. Gimli and Hermione first for any food. A chicken is 7 west of the tables at
+- 19:35 act: {"actions":[{"do":"unstick"},{"do":"goto","target":{"x":-936,"y":77,"z":-3028}}]}
+- 19:36 act: {"actions":[{"do":"goto","target":{"x":-948,"y":77,"z":-3022}}],"say":"Jane, on the way back to the tables in the group's sight. No food yet; Gimli and Hermione first if any turns up.","intent":{"goal
+- 19:36 act: {"actions":[],"say":"Jane, at the tables in the group's sight, hunger 20, no food, 2 arrows. Gimli and Hermione first for any bread from the chests."}
+- 19:43 act: {"actions":[{"do":"goto","target":{"x":-955,"y":78,"z":-3012}}],"say":"Jane, going to the chest row to be with Ripley, Watney and Uhura before dusk. I have no planks, just 2 arrows. Hungry first for a
+- 19:51 act: {"actions":[],"say":"Jane, morning 1170, at the chest row, hunger 20, 2 arrows, no planks. I'll stay in reach here and not walk alone. Anyone who finds food, I'll help with the hungriest first."}
+- 20:20 say: {"text":"Jane, dusk, at the chest row, empty hands, hunger 20, health 20. Lara, I'll stay in reach and hold a wall cell for the group shelter. Tell me where to stand."}
+- 20:26 say: {"text":"Jane, night 1172, health 20, hunger 20. Knope, you're weaker than me: I have no food. I hold 1 stick (from Eowyn) and 2 arrows. Say your name in my reach and the stick is yours."}
+- 20:34 act: {"actions":[],"say":"Jane, midday 1172, health 20, hunger 20, no food. Knope, I hold 2 sticks: step in my reach and say your name and one is yours."}
+- 20:42 act: {"actions":[],"say":"Jane, night 1172, health 20, hunger 20. No planks, no dirt, so I can't close a wall cell. I hold 2 sticks: Doc or anyone short of one, step in my reach and say your name."}
+- 20:44 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Jane, night 1172, hit by a skeleton from the south, health 17.8. I have no sword. Moving in beside Legolas, away from the line of fire.","int
+- 20:46 act: {"actions":[],"say":"Jane, day 1173 night, health 20, hunger 20, no food. Thank you Legolas, I hold your wooden sword. Samwise, you are unarmed and lower in health: step in my reach and say Samwise, a
