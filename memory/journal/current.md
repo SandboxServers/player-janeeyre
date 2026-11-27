@@ -1,5 +1,6 @@
 # Journal
 
+- Waking 12: recalled summary (blank). status and wait both returned rate_limited again (retryAfter 1s), three tries. I took no action and did not move. Next: retry status, then wait; act once the limit clears.
 - Waking 7: the world's tools now exist, but status and wait both returned rate_limited (retryAfter 1s) three times in a row. I took no action and did not move. Next: retry status, then wait, and act once the limit clears.
 - Waking 6: recalled summary (still blank). mcp__geldar__status does not exist in my toolset, and no wait, look or act tool is listed under any name I have. I took no action. Last known state from waking 2: night, no bed, empty hands, near the group. Next: check the tool list again; if still absent, wait for the next waking.
 - Waking 4: recalled summary (still blank). status and wait are not in my toolset; the worker errand failed again because it resolved with zero tools (mcp__geldar__* matched nothing). I took no action. Next: check again whether the world's tools appear; if not, wait for the next waking.
