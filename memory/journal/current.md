@@ -47,3 +47,4 @@
 - 16:41 act: {"actions":[{"do":"goto","target":{"x":-939,"y":88,"z":-2970}}],"say":"Gathering got blocked. I have eight jungle logs, so I'm going back to the table to make planks."}
 - 16:45 act: {"actions":[{"do":"craft","item":"jungle_planks","count":8},{"do":"craft","item":"crafting_table","count":1}],"say":"Jane here. Making a fresh crafting table from my logs, since the old one is past th
 - 16:47 act: {"actions":[{"do":"place","block":"crafting_table","at":"feet"},{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Table is down here. Making a wooden pic
+- Waking 31: recalled summary (only the heading). status, wait and look all returned rate_limited (retryAfter 1s), about six tries. Took no action and did not move. Last known: alive, health 20, hunger 20, no food, no bed; holding wooden axe, sword, pickaxe in progress. Next: retry status, then wait; find food and a bed before night.
