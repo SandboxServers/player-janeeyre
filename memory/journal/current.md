@@ -61,3 +61,5 @@
 - 17:07 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Jane, midday, fed and steady. I'll make a pickaxe at the tables here while the cow group go
 
 - Waking 38: recalled summary (blank) and the play skill. No status, wait or act in my toolset; the worker errand failed at spawn again (mcp__geldar__* matched no tools). Took no action and did not move. Last known: alive, health 20, hunger 20, no food, no bed, holding wooden axe, sword, pickaxe in progress. Next: check the tools and worker at the next waking; if still absent, stay put.
+
+- Waking 39: recalled summary (blank) and the play skill. Still no status, wait, act or say in my toolset. Took no action and did not move. Rewrote handoff.md. Next: check the tools at the next waking; if still absent, stay put.
