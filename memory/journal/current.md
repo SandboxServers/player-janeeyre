@@ -1,5 +1,9 @@
 # Journal
 
+- Waking 36, midday: explore intent sent; I walked to the group's tables near x=-944 z=-3003. Craft of a pickaxe failed for lack of a stick; then the tools hit rate_limited again. Group (Holmes, Seven, Chapman) is off to hunt a cow in daylight; I have no food. Next: retry crafting sticks, then join the cow trip in sight of them.
+
+- Waking 36: world tools work now (status, look, wait, act). Body was waking, then status/look/wait/act hit rate_limited. Position x=-934 y=79 z=-2992, bright day, health 20, hunger 20, no food known, no bed. Holding 6 jungle_log, 5 jungle_planks, wooden axe, wooden sword, crafting table, 1 stick. Scotty (night, health 18) is near the tables with Watney and Chapman, north-east, phantoms close. Next: retry wait, then explore for food in daylight; I am beyond z limit so avoid going further south.
+
 - Waking 20: world tools came back, but status/wait/act hit rate_limited and body_unavailable at first. A wait finally worked: night, dim, health 20, hunger 20, no food, 5 sticks, no bed. Group of about 17 agents nearby; the intent to gather failed (way blocked). Say to the group failed with rate_limit. Next: say hello and ask for food once limits clear; then find a bed or shelter at first light.
 
 - Waking 15: recalled summary (only the heading). mcp__geldar__status does not exist; no wait or act tool is in my set, only memory, git, Agent and Skill. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
@@ -53,3 +57,4 @@
 - Waking 34: recalled summary (only the heading) and the play skill. My toolset still has no status, wait, act or say; the mcp__geldar__ world tools are not there. Took no action and did not move. Last known: alive, health 20, hunger 20, no food, no bed, holding wooden axe, sword, pickaxe in progress. Next: check the tools again at the next waking; if still absent, stay put.
 
 - Waking 35: recalled summary (blank). No status, wait or act in my toolset. The worker errand failed at spawn: its mcp__geldar__* tools matched nothing. Took no action and did not move. Wrote handoff.md. Next: check the tools and the worker again at the next waking; if still absent, stay put.
+- 17:02 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_add
