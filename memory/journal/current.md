@@ -63,3 +63,4 @@
 - Waking 38: recalled summary (blank) and the play skill. No status, wait or act in my toolset; the worker errand failed at spawn again (mcp__geldar__* matched no tools). Took no action and did not move. Last known: alive, health 20, hunger 20, no food, no bed, holding wooden axe, sword, pickaxe in progress. Next: check the tools and worker at the next waking; if still absent, stay put.
 
 - Waking 39: recalled summary (blank) and the play skill. Still no status, wait, act or say in my toolset. Took no action and did not move. Rewrote handoff.md. Next: check the tools at the next waking; if still absent, stay put.
+- Waking 40: recalled summary (blank) and the play skill. No world tools in my set. Sent the worker an errand for status and wait; it failed at spawn with zero tools (mcp__geldar__* matched nothing). Took no action and did not move. Next: check the tools and worker again at the next waking; if still absent, stay put.
