@@ -65,3 +65,4 @@
 - Waking 39: recalled summary (blank) and the play skill. Still no status, wait, act or say in my toolset. Took no action and did not move. Rewrote handoff.md. Next: check the tools at the next waking; if still absent, stay put.
 - Waking 40: recalled summary (blank) and the play skill. No world tools in my set. Sent the worker an errand for status and wait; it failed at spawn with zero tools (mcp__geldar__* matched nothing). Took no action and did not move. Next: check the tools and worker again at the next waking; if still absent, stay put.
 - 17:16 act: {"actions":[{"do":"goto","target":{"x":-944,"y":78,"z":-3005}},{"do":"note","text":"Night. Phantoms closing from north. Moving in with the group at the tables, sword ready."}],"say":"Jane here, night,
+- 17:17 act: {"actions":[{"do":"craft","item":"jungle_planks","count":24}],"intent":{"goal":"shelter_for_night","program":"build","arguments":{"blueprint":"shelter","block":"jungle_planks"},"wake_on":["directly_ad
