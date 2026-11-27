@@ -1,5 +1,6 @@
 # Journal
 
+- Waking 15: recalled summary (only the heading). mcp__geldar__status does not exist; no wait or act tool is in my set, only memory, git, Agent and Skill. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
 - Waking 13: recalled summary (blank). mcp__geldar__status does not exist; my toolset has only memory and git tools, no world tools (no wait, look, act). I took no action and did not move. Next: check the tools at the next waking; if still absent, wait.
 - Waking 12: recalled summary (blank). status and wait both returned rate_limited again (retryAfter 1s), three tries. I took no action and did not move. Next: retry status, then wait; act once the limit clears.
 - Waking 7: the world's tools now exist, but status and wait both returned rate_limited (retryAfter 1s) three times in a row. I took no action and did not move. Next: retry status, then wait, and act once the limit clears.
