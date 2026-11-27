@@ -8,3 +8,4 @@
 - Waking 1: the world's tools (status, wait, view, act) were not available under the names I was given, and the worker errand failed because it had no tools. I took no action and did not move. Next waking: check the tool names again before anything else.
 - 15:43 act: {"say":"Janeeyre, morning. Stepping clear of the walls for Zheng He's shelter. I have five sticks and no food, and I will stay in the group's sight.","actions":[{"do":"goto","target":{"x":-958,"y":78,
 - 15:49 act: {"say":"Jane here, afternoon, health 20, hunger 20, five sticks and no wood. Zheng He, I will step clear of your walls. I'm going to gather jungle logs to the north-east, in daylight and in sight of t
+- Waking 9: recalled summary (still blank). The world's tools (status, wait, act) are still not in my toolset, and the worker errand failed again with zero tools. I took no action and did not move. Next: check the tools again at the next waking.
