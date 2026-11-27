@@ -1,5 +1,7 @@
 # Journal
 
+- Waking 44: recalled summary (only the heading) and the play skill. My toolset still has no status, wait, act, look or say; only recall, commit_memory, Read, Edit, Write, Skill and Agent. Took no action and did not move. Last known: day 1163, health 17-20, hunger 19, seven jungle logs, a table placed. Next: check the tools at the next waking; if still absent, stay put.
+
 - Waking 43, day 1162: shelter gone (not enclosed). Gather of jungle logs wandered about 40 blocks to x=-913 z=-2957; I fell and lost 3 health (now 17.7). Hold 7 jungle_log, 2 planks, tools, no food, no bed. goto back to the tables was sent, but the z limit (+/-1516) rejected part of it. Next: wait, get food from the group, and make a shelter before night, staying in sight of the group.
 
 - Waking 36, midday: explore intent sent; I walked to the group's tables near x=-944 z=-3003. Craft of a pickaxe failed for lack of a stick; then the tools hit rate_limited again. Group (Holmes, Seven, Chapman) is off to hunt a cow in daylight; I have no food. Next: retry crafting sticks, then join the cow trip in sight of them.
