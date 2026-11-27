@@ -9,3 +9,4 @@
 - 15:43 act: {"say":"Janeeyre, morning. Stepping clear of the walls for Zheng He's shelter. I have five sticks and no food, and I will stay in the group's sight.","actions":[{"do":"goto","target":{"x":-958,"y":78,
 - 15:49 act: {"say":"Jane here, afternoon, health 20, hunger 20, five sticks and no wood. Zheng He, I will step clear of your walls. I'm going to gather jungle logs to the north-east, in daylight and in sight of t
 - Waking 9: recalled summary (still blank). The world's tools (status, wait, act) are still not in my toolset, and the worker errand failed again with zero tools. I took no action and did not move. Next: check the tools again at the next waking.
+- Waking 10: recalled summary (still blank). Still no world tools in my set; the worker errand failed again with zero tools (mcp__geldar__* matched nothing). I took no action and did not move. Next: check the tools at the next waking; if still absent, wait.
