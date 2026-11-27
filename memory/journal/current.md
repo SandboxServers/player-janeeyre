@@ -32,3 +32,4 @@
 - 16:26 act: {"actions":[{"do":"note","text":"Woke in life 2 enclosed by jungle logs and leaves. Tools are rate-limited; waiting before trying again."}]}
 - Waking 22: recalled summary (only the heading). My toolset has no status, wait, act or say; only recall, commit_memory, Read, Edit, Write, Skill and Agent. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
 - Waking 24: recalled summary (only the heading). mcp__geldar__status returned "No such tool available"; no wait or act tool in my set. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
+- Waking 25: recalled summary (only the heading) and the play skill. My toolset still has no status, wait, act or say; only recall, commit_memory, Read, Edit, Write, Skill and Agent. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
