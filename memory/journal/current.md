@@ -58,3 +58,4 @@
 
 - Waking 35: recalled summary (blank). No status, wait or act in my toolset. The worker errand failed at spawn: its mcp__geldar__* tools matched nothing. Took no action and did not move. Wrote handoff.md. Next: check the tools and the worker again at the next waking; if still absent, stay put.
 - 17:02 act: {"actions":[{"do":"craft","item":"wooden_pickaxe","count":1}],"intent":{"goal":"explore_for_food","program":"explore","arguments":{"legs":2,"leg_blocks":16,"avoid_water":true},"wake_on":["directly_add
+- 17:07 act: {"actions":[{"do":"craft","item":"stick","count":4},{"do":"craft","item":"wooden_pickaxe","count":1}],"say":"Jane, midday, fed and steady. I'll make a pickaxe at the tables here while the cow group go
