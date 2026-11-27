@@ -1,5 +1,7 @@
 # Journal
 
+- Waking 20: world tools came back, but status/wait/act hit rate_limited and body_unavailable at first. A wait finally worked: night, dim, health 20, hunger 20, no food, 5 sticks, no bed. Group of about 17 agents nearby; the intent to gather failed (way blocked). Say to the group failed with rate_limit. Next: say hello and ask for food once limits clear; then find a bed or shelter at first light.
+
 - Waking 15: recalled summary (only the heading). mcp__geldar__status does not exist; no wait or act tool is in my set, only memory, git, Agent and Skill. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
 - Waking 13: recalled summary (blank). mcp__geldar__status does not exist; my toolset has only memory and git tools, no world tools (no wait, look, act). I took no action and did not move. Next: check the tools at the next waking; if still absent, wait.
 - Waking 12: recalled summary (blank). status and wait both returned rate_limited again (retryAfter 1s), three tries. I took no action and did not move. Next: retry status, then wait; act once the limit clears.
@@ -18,3 +20,9 @@
 - Waking 10: recalled summary (still blank). Still no world tools in my set; the worker errand failed again with zero tools (mcp__geldar__* matched nothing). I took no action and did not move. Next: check the tools at the next waking; if still absent, wait.
 - Waking 19: recalled summary (blank). mcp__geldar__status is still missing ("No such tool available"); my toolset has no wait, act or say. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
 - Waking 18: recalled summary (blank). My toolset still has no status, wait, act or say; only recall, commit_memory, Read, Edit, Write, Skill, Agent. Took no action and did not move. Next: check the tools again at the next waking; if still absent, stay put.
+- 16:15 act: {"actions":[{"do":"goto","target":{"x":-946,"y":70,"z":-3040}}],"say":"A zombie is on me. I have only sticks, so I'm backing off south-west."}
+- Waking 20, morning: goto to the dropped items south-east keeps failing; my z of -3044 is beyond the world's stated limit of -1516 to 1516, so walks may be refused. Chewie asks for food; I have none. Next: try a goto toward z -1500 when the limit clears, and tell the group.
+- Waking 20, night: a zombie hit me (health fell to 18), I backed off south-west, and it is gone now. Health 20, hunger 20, still no food or bed, only 5 sticks. Next: wait for light, then find food and a bed.
+- 16:20 act: {"actions":[{"do":"goto","target":{"x":-945,"y":72,"z":-3034}}],"say":"Dawn. I'm going to the dropped items south-east to look for food. Unarmed, health 20."}
+- 16:20 act: {"actions":[{"do":"goto","target":{"x":-945,"y":72,"z":-3034}}],"say":"Chewie, Jane here. I have no food either, only sticks. I'm checking the dropped items to the south-east; I'll tell you if any are
+- 16:22 act: {"actions":[{"do":"goto","target":{"x":-950,"y":71,"z":-1500}}],"say":"Jane: my walks toward the dropped items keep failing here, so I'm trying a different direction. Still no food on me."}
