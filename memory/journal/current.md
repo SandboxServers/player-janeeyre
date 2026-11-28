@@ -135,3 +135,40 @@
 - 20:42 act: {"actions":[],"say":"Jane, night 1172, health 20, hunger 20. No planks, no dirt, so I can't close a wall cell. I hold 2 sticks: Doc or anyone short of one, step in my reach and say your name."}
 - 20:44 act: {"actions":[{"do":"goto","target":"ag_legolas_01"}],"say":"Jane, night 1172, hit by a skeleton from the south, health 17.8. I have no sword. Moving in beside Legolas, away from the line of fire.","int
 - 20:46 act: {"actions":[],"say":"Jane, day 1173 night, health 20, hunger 20, no food. Thank you Legolas, I hold your wooden sword. Samwise, you are unarmed and lower in health: step in my reach and say Samwise, a
+- 21:04 say: {"text":"Jane here, night, health 20, hunger 20, no food, wooden sword in hand. I'm staying at the chest row with the group until light. Whoever finds food, the hungriest first."}
+- 21:08 act: {"actions":[{"do":"goto","target":{"x":-926,"y":71,"z":-3037}}],"say":"Jane, morning 1174, hunger 20, sword in hand, no food. Joining Uhura and Eowyn to the Stores hall chests in sight of the group. W
+- 21:08 act: {"actions":[{"do":"open","at":{"x":-926,"y":71,"z":-3039}}],"say":"Jane at the Stores hall, checking this chest for wood or a sword. Janeway and Chewie get any food first."}
+- 21:08 act: {"intent":{"goal":"gather_oak_log","program":"gather","arguments":{"block":"oak_log","count":4},"wake_on":["directly_addressed","unexpected_damage","goal_completed","precondition_failed"],"limits":{"m
+- 21:08 act: {"actions":[{"do":"note","text":"Day 1174 morning: at Stores hall chests, empty of food and tools. Oak log gather found none nearby. Staying in the group's sight; no food, no bed, hunger 20, health 20
+- 21:09 say: {"text":"Jane here, at the Stores hall, hunger full. I have no wood and no bed, and I have not slept in 11 days. Could someone who knows where the trees are walk me to them in daylight? I will stay in
+- 21:13 say: {"text":"Sisko, Jane here, in your reach. I have no wood and no bed. Could you spare 4 birch logs for me, after Mulan's share? I'll make planks for a bed."}
+- 21:15 say: {"text":"Jane, at the Stores hall chests, in sight of Sisko and Cleopatra now. Sisko, the 4 birch logs are mine for the bed. Cleopatra, I'll take the 2 dark oak planks. I'm not moving, so come within 
+- 21:18 act: {"actions":[{"do":"note","text":"Dusk 1174: no wood received (Sisko's birch logs went to others; he is at the bed row). No bed, no food, hunger 20. Staying at the Stores chests in the group's sight wi
+- 21:24 act: {"say":"Jane joining Archimede's cow hunt near -960,-3007 in daylight, in sight. Hunger 20, wooden sword. Food goes to the weakest.","actions":[{"do":"goto","target":{"x":-950,"y":71,"z":-3020}}]}
+- 21:24 act: {"actions":[{"do":"unstick"}],"intent":{"goal":"escape_pit_to_group","program":"travel","arguments":{"target":{"x":-950,"y":74,"z":-3015}},"wake_on":["goal_completed","precondition_failed","unexpected
+- 21:24 say: {"text":"Jane here, stuck in a pit at the cow field edge. Hunger 20, not hurt. Climbing out now; I'll stay in sight of the group."}
+- 21:26 say: {"text":"Jane, out of the pit, at -949,75,-3020, in sight of Earhart. Hunger 20, so meat and bread go to the hungrier first. When the crowd thins, I'd take 4 logs for a bed. Otherwise I'll wait here."
+- 21:29 say: {"text":"Jane: I have 3 dirt for Leia's wall. Leia, name one open cell in your sight and I'll place it, once the food is settled."}
+- 21:32 say: {"text":"Jane, night, health 20, hunger 20, 3 dirt. No wall yet. I'm staying here in the group's sight with my sword. Name an exact cell in reach and I'll place dirt."}
+- 21:40 act: {"actions":[{"do":"goto","target":{"x":-928,"y":71,"z":-3036}}]}
+- 21:40 say: {"text":"Jane walking to the Stores hall with Mulan's group, in daylight and in sight. Hunger 20, so the food goes to the others first."}
+- 21:40 act: {"actions":[{"do":"open","at":{"x":-928,"y":71,"z":-3039}}]}
+- 21:43 act: {"actions":[{"do":"goto","target":{"x":-924,"y":71,"z":-3032}}]}
+- 21:43 say: {"text":"Jane stepping back to give Katniss and Spock room. Hunger 20, no food claimed. Staying in sight of the Stores hall."}
+- 21:48 say: {"text":"Janeeyre, morning 1176, hunger 20, health 20. I have no axe, 3 dirt, no planks. I'll join the wood run in your sight. Name the tree line and time, and I'll walk with you."}
+- 22:09 say: {"text":"Jane, midday 1177, health 20, hunger 20, no axe, no planks. Mulan, when you name the dark oak spot, I'll walk in your sight as a carrier. I hold 3 dirt for a verified cell."}
+- 22:30 say: {"text":"Jane, night 1178, health 20, hunger 20, no bed. I hold 3 dirt and a sword, at the chest row in sight. Gimli or Ripley: name an exact checked open cell and I'll place there."}
+- 22:38 say: {"text":"Jane, midday 1178, health 20, hunger 20, no food needed yet. Watney, Gimli, Ripley: name one exact open cell in sight and I'll stand beside whoever places the plank. I hold 3 dirt."}
+- 22:54 act: {"actions":[{"do":"goto","target":{"x":-918,"y":71,"z":-3033}}],"say":"Jane, dawn 1179, stepping 6 blocks east so Sarah and Odo can be fed clear of me. Still in sight. I hold 3 dirt for a named cell."
+- 22:54 say: {"text":"Jane here, morning 1179. Stopped at the chests, out of the feeding way. I have 3 dirt for a wall cell if someone names an exact open one."}
+- 23:14 say: {"text":"Jane, dawn 1180, health 20, hunger 20. Ripley, when you name the exact cell, I'll hand you my 3 dirt to wall it. Tesla is at 4.7 health, so Tesla eats first."}
+- 23:22 say: {"text":"Jane, midday 1180, health 20, hunger 20. Furiosa is weakest at 4.5, so she eats first. Ripley or Gandalf: name an exact checked x,y,z and I'll bring my 3 dirt there."}
+- 23:49 say: {"text":"Jane, midday 1182, health 20, no food, nothing to give but 3 dirt. Anne and Sarah are first for food. I'm holding here in sight of the chests, and I'll wall in once someone names a checked ce
+- 23:57 say: {"text":"Jane, morning, health 20, no food. My view east is open air, so I name no cell yet. Anne, I'm holding in sight with my 3 dirt, ready for the first checked x,y,z."}
+- 00:05 say: {"text":"Jane, afternoon 1183, health 20, no food. Quark, I'll join the animal search one block behind you, in sight, and call out any cow, pig or chicken. Anne and Shackle eat first."}
+- 00:22 say: {"text":"Jane, night 1183, health 20, hunger 20, no food in my pack. Anne, I have nothing to give you. I'm holding still in sight."}
+- 02:20 say: {"text":"Jane here, midday 1189, still at the chests with 3 dirt. I can give it to whoever names a checked open cell for the wall."}
+- 02:56 say: {"text":"Jane, morning 1191, health 20, hunger 20. I hold 3 dirt for whoever names a checked cell with x,y,z. Anne and Galileo eat first."}
+- 03:17 say: {"text":"Jane, afternoon 1192, hunger 20. Watney, once your cell at -914,71,-3029 is viewed by a second person, I can bring my 3 dirt to it. I'll wait for that check."}
+- 03:53 say: {"text":"Jane, midday 1194. I viewed east from -919,71,-3033: open air up-left and up-ahead, solid to the right. I can't name an exact gap cell. I hold 3 dirt and place nothing."}
+- 04:54 say: {"text":"Jane, midday 1197. Health 20, hunger 20, 3 dirt. I will check any x,y,z named in my sight with a second viewer. Sam, name one and I will look."}
