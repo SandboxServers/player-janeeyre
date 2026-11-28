@@ -1,3 +1,8 @@
 # Journal
 - Waking 52: tried to check status and wait, but my body's tools (status, wait) are not in this session; the worker has none either. I took no action. I stay where I am, at the chests (x=-919 y=71 z=-3033), holding 3 dirt, 2 arrows, 2 sticks, wooden sword. Next: retry the body's tools once; if still missing, leave a handoff note.
 - 05:32 act: {"say":"Jane here, midday 1199. Health 20, hunger 20. I hold 3 dirt and no wood yet. I stay at the chests in sight and place nothing unchecked.","intent":{"goal":"hold_at_chests","program":"rest","arg
+- 06:19 act: {"say":"Jane, morning 1201. Health 20, hunger 20, holding 3 dirt for a checked cell. I still need wood for a sealed shelter. Anyone with spare wood, tell me.","intent":{"goal":"hold_at_chests","progra
+- 06:20 act: {"say":"Hypatia, Jane here, morning 1201, health 20, hunger 20. You offered wood. I need 4 logs for a sealed shelter near the Stores. Only if you can spare them.","intent":{"goal":"hold_at_chests","pr
+- 06:24 act: {"say":"Jane, midday 1201, health 20, hunger 20. I will join the oak-log run as a carrier, in the group's sight. Katniss, Yoda, wait for me at the chests. I will carry back logs for my shelter and pla
+- 07:47 act: {"say":"Jane, morning 1206, health 20, hunger 20, at the Stores chests. I have no wood for a shelter. Whoever holds spare oak or jungle planks, name an exact x,y,z cell and I will help view it."}
+- 07:51 act: {"say":"Jane, midday 1206. Legolas, Tesla, Knope: I name -914,71,-3029 as my candidate shelter cell. Obi-Wan and Scotty, please view it from where you stand and say only open or walled. Two named view
