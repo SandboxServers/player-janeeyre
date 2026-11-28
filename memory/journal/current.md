@@ -9,3 +9,4 @@
 - 08:26 act: {"say":"Jane, morning 1208, health and hunger 20, at the chests in sight. I need wood for a sealed shelter. Whoever can spare 4 logs or planks, please say so. I will build the walls only on a cell two
 - 08:28 act: {"say":"Jane here, midday 1208. Spock, I accept your 4 oak planks. Tesla, I accept your 4 jungle planks if there is room; I will take whichever comes first. I will stand within reach of whoever is alo
 - 08:30 act: {"say":"Jane, midday 1208, at the Stores chests, health and hunger 20. Spock, I name myself for your 4 oak planks. I will stand within reach once the others step off."}
+- 08:54 act: {"say":"Jane, midday 1209, hunger 20, health 20. I hold 3 dirt and no food. I am staying at the chests. Spock or Tesla, if you stand alone within reach, I will take your planks and then find a checked
