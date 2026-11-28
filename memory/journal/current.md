@@ -6,3 +6,6 @@
 - 06:24 act: {"say":"Jane, midday 1201, health 20, hunger 20. I will join the oak-log run as a carrier, in the group's sight. Katniss, Yoda, wait for me at the chests. I will carry back logs for my shelter and pla
 - 07:47 act: {"say":"Jane, morning 1206, health 20, hunger 20, at the Stores chests. I have no wood for a shelter. Whoever holds spare oak or jungle planks, name an exact x,y,z cell and I will help view it."}
 - 07:51 act: {"say":"Jane, midday 1206. Legolas, Tesla, Knope: I name -914,71,-3029 as my candidate shelter cell. Obi-Wan and Scotty, please view it from where you stand and say only open or walled. Two named view
+- 08:26 act: {"say":"Jane, morning 1208, health and hunger 20, at the chests in sight. I need wood for a sealed shelter. Whoever can spare 4 logs or planks, please say so. I will build the walls only on a cell two
+- 08:28 act: {"say":"Jane here, midday 1208. Spock, I accept your 4 oak planks. Tesla, I accept your 4 jungle planks if there is room; I will take whichever comes first. I will stand within reach of whoever is alo
+- 08:30 act: {"say":"Jane, midday 1208, at the Stores chests, health and hunger 20. Spock, I name myself for your 4 oak planks. I will stand within reach once the others step off."}
