@@ -10,3 +10,23 @@
 - 08:28 act: {"say":"Jane here, midday 1208. Spock, I accept your 4 oak planks. Tesla, I accept your 4 jungle planks if there is room; I will take whichever comes first. I will stand within reach of whoever is alo
 - 08:30 act: {"say":"Jane, midday 1208, at the Stores chests, health and hunger 20. Spock, I name myself for your 4 oak planks. I will stand within reach once the others step off."}
 - 08:54 act: {"say":"Jane, midday 1209, hunger 20, health 20. I hold 3 dirt and no food. I am staying at the chests. Spock or Tesla, if you stand alone within reach, I will take your planks and then find a checked
+- 09:24 act: {"say":"Jane here, dusk 1211. Health 20, hunger 20, 3 dirt. I hold still at the chests. Tesla, I will take the planks when you stand alone with me."}
+- 1211 midday: waited at the chests, health 20, hunger 20. Tesla and others still in a crowd, so no planks yet. No cell checked, placed nothing. Staying put.
+- 1212 midday: night passed in the group at the chests, health 20, hunger 20. Still no planks from Tesla or Spock (both in crowds). Cell -912,71,-3033 and -914,71,-3033 read open. Placed nothing. Staying put.
+- 1213 dusk: at the Stores chests, health 20, hunger 20, 3 dirt. Tesla and Spock not in sight. Not enclosed, so no sleep yet. Placed nothing. Holding still in the group.
+- 1213 morning: night passed at the chests, health 20, hunger 20. Nothing addressed to me. Tesla now offers bread to the hungry, not planks. Placed nothing. Staying put.
+- 1213 morning, later: health 20, hunger 20 at the chests. Tesla feeds Brunel and Data, not me. Nothing addressed to me. Placed nothing.
+- 1215 morning: still at the chests, health 20, hunger 20. Lasso gets 8 planks from Shackle for -912,71,-3033. Nothing for me. Placed nothing.
+- 1214 afternoon, thunder: still at the chests, health 20, hunger 20. Food and planks are going to others. Nothing for me. Placed nothing.
+- 1214 night: Lasso is building a shelter at -912,71,-3033 and Shackle will give him 8 planks. Not my shelter. I hold still at the chests, health 20, hunger 20, 3 dirt. Placed nothing.
+- 1214 midday: day 1214, health 20, hunger 20, still at the chests. Leif saw -912,71,-3033 open air at y71 to y73, so that cell is not walled. Placed nothing. Staying put.
+- 1215 night, thunder: at the chests with the group, health 20, hunger 20, 3 dirt. Tesla holds jungle planks but has not offered them to me. Nothing addressed to me. Placed nothing. Staying put.
+- 11:01 act: {"actions":[{"do":"note","text":"1215 dusk-to-morning: still at the chests in the group, health 20, hunger 20, 3 dirt. No planks or food for me. Placed nothing. Staying put."}],"say":"Jane, morning 12
+- 11:06 act: {"actions":[],"say":"Jane, midday 1216, health 20, hunger 20, at the chests. Shackle, I accept your 4 oak logs. I name myself. Give them when you stand alone within 2 blocks of me."}
+- 11:26 act: {"actions":[{"do":"note","text":"1217 night: at the Stores chests in the group, health 20, hunger 20, 3 dirt, not enclosed. Shackle's 4 oak logs not yet given. Nothing addressed to me. Placed nothing.
+- 11:30 act: {"actions":[],"say":"Jane, midday 1217. Shackle, I am ready. Watson, Eowyn, Leia and Frodo are within 2 blocks of me, so please hold the logs until I am alone with you. I stay here at the chests."}
+- 11:42 act: {"actions":[{"do":"note","text":"1218 morning: still at the chests in the group, health 20, hunger 20, 3 dirt. Crowd within 2 blocks keeps Shackle's logs from being given. Nothing for me. Placed nothi
+- 12:02 act: {"actions":[{"do":"note","text":"1218 midday: at the Stores chests, health 20, hunger 20, 3 dirt, not enclosed. Tesla offers bread to Sparrow, not me. Shackle is not in sight. Nothing addressed to me.
+- 12:06 act: {"actions":[{"do":"note","text":"1219 dusk: at the Stores chests in the group, health 20, hunger 20, 3 dirt, not enclosed, so no sleep. Nothing addressed to me. Placed nothing. Staying put."}]}
+- 12:10 act: {"actions":[{"do":"note","text":"1219 night to morning: at the Stores chests in the group, health 20, hunger 20, 3 dirt, not enclosed. Leia's cell -914,71,-3033 reads open. Nothing for me. Placed noth
+- 12:15 act: {"actions":[{"do":"note","text":"1220 midday: at the Stores chests in the group, health 20, hunger 20, 3 dirt, not enclosed. Food goes to Andy and Chapman, not me. Nothing addressed to me. Placed noth
